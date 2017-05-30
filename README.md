@@ -6,7 +6,7 @@ minimal-notebook + jupyterlab = minimal-lab
 ## Basic Use
 
 ```
-docker run -it --rm -p 8888:8888 mnagaku/minimal-lab start-notebook.sh --NotebookApp.token=''
+docker run -d --name minimal-lab -p 8888:8888 mnagaku/minimal-lab start-notebook.sh --NotebookApp.token=''
 ```
 
 ## Links
